@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.greekc.org/models/TransReg3.owl/"
+     xml:base="http://www.greekc.org/models/TransReg3.owl/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:GRAO="http://www.greekc.org/GRAO#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:models="http://www.greekc.org/models#"
+     xmlns:TransReg3="http://www.greekc.org/models/transreg3.owl#">
+    <owl:Ontology rdf:about="http://www.greekc.org/models"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.greekc.org/models#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.greekc.org/models#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <rdfs:label>part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <rdfs:label>has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <rdfs:label>occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002233 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002233">
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <rdfs:label>has input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002333 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002333">
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <rdfs:label>enabled by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
+        <owl:equivalentClass rdf:resource="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence"/>
+        <models:definition>High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</models:definition>
+        <rdfs:isDefinedBy>Chemical Entities of Biological Interest (ChEBI)</rdfs:isDefinedBy>
+        <rdfs:label>deoxyribonucleic acid (DNA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33695">
+        <rdfs:isDefinedBy>Chemical Entities of Biological Interest (ChEBI)</rdfs:isDefinedBy>
+        <rdfs:label>information biomacromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000785">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <models:definition>The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>chromatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000978">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <models:definition>Interacting selectively and non-covalently with a specific upstream regulatory DNA sequence (transcription factor recognition sequence or binding site) located in cis relative to the transcription start site (i.e., on the same strand of DNA) of a gene transcribed by RNA polymerase II.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>RNA polymerase II cis-regulatory region sequence-specific DNA binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <models:definition>A DNA-binding transcription factor activity that activates or increases transcription of specific gene sets transcribed by RNA polymerase II.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>DNA-binding transcription activator activity, RNA polymerase II-specific</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
+        <models:definition>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>molecular function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <models:definition>A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function.</models:definition>
+        <models:definition>High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>cellular component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <models:definition>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>biological process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <models:definition>Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>positive regulation of transcription by RNA polymerase II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+        <rdfs:subClassOf rdf:resource="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence"/>
+        <models:definition>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</models:definition>
+        <rdfs:isDefinedBy>Sequence Ontology (SO)</rdfs:isDefinedBy>
+        <rdfs:label>gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000713">
+        <rdfs:subClassOf rdf:resource="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence"/>
+        <models:definition>A motif that is active in the DNA form of the sequence.</models:definition>
+        <rdfs:isDefinedBy>Sequence Ontology (SO)</rdfs:isDefinedBy>
+        <rdfs:label>DNA motif</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <models:definition>A transcription coregulator activity that activates or increases the transcription of specific gene sets via binding to a DNA-bound DNA-binding transcription factor, either on its own or as part of a complex. Coactivators often act by altering chromatin structure and modifications. For example, one class of transcription coactivators modifies chromatin structure through covalent modification of histones. A second class remodels the conformation of chromatin in an ATP-dependent fashion. A third class modulates interactions of DNA-bound DNA-binding transcription factors with other transcription coregulators. A fourth class of coactivator activity is the bridging of a DNA-binding transcription factor to the general (basal) transcription machinery. The Mediator complex, which bridges sequence-specific DNA binding transcription factors and RNA polymerase, is also a transcription coactivator.</models:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <rdfs:label>transcription coactivator activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bootstrep.eu/ontology/GRAO#DNA_sequence -->
+
+    <owl:Class rdf:about="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence">
+        <rdfs:isDefinedBy>Gene Regulation Application Ontology (GRAO)</rdfs:isDefinedBy>
+        <rdfs:label>DNA sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.greekc.org/models/DNA_motif -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/DNA_motif">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000713"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0000978"/>
+        <obo:BFO_0000066 rdf:resource="http://www.greekc.org/models/chromatin"/>
+        <obo:RO_0002233 rdf:resource="http://www.greekc.org/models/DNA_motif"/>
+        <obo:RO_0002333 rdf:resource="http://www.greekc.org/models/information_biomacromolecule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/chromatin -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/chromatin">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0000785"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/gene -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/gene">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/information_biomacromolecule -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/information_biomacromolecule">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/positive_regulation_of_transcription_by_RNA_polymerase_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/positive_regulation_of_transcription_by_RNA_polymerase_II">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0045944"/>
+        <obo:RO_0002233 rdf:resource="http://www.greekc.org/models/gene"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/transcription_coactivator_activity -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/transcription_coactivator_activity">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713"/>
+        <obo:BFO_0000050 rdf:resource="http://www.greekc.org/models/positive_regulation_of_transcription_by_RNA_polymerase_II"/>
+        <obo:BFO_0000066 rdf:resource="http://www.greekc.org/models/chromatin"/>
+        <obo:RO_0002233 rdf:resource="http://www.greekc.org/models/gene"/>
+        <obo:RO_0002333 rdf:resource="http://www.greekc.org/models/information_biomacromolecule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.greekc.org/models/DNA-binding_transcription_activator_activity,_RNA_polymerase_II-specific -->
+
+    <owl:NamedIndividual rdf:about="http://www.greekc.org/models/DNA-binding_transcription_activator_activity,_RNA_polymerase_II-specific">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0001228"/>
+        <obo:BFO_0000051 rdf:resource="http://www.greekc.org/models/RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding"/>
+        <obo:BFO_0000066 rdf:resource="http://www.greekc.org/models/chromatin"/>
+        <obo:RO_0002233 rdf:resource="http://www.greekc.org/models/gene"/>
+        <obo:RO_0002333 rdf:resource="http://www.greekc.org/models/information_biomacromolecule"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+
