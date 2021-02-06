@@ -1,4 +1,6 @@
-# greekc
+# Formalization of gene regulation knowledge using ontologies and Gene Ontology Causal Activity Models
+
+## Description of the work
 
 ## Use cases
 
