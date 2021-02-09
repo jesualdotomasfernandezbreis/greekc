@@ -12,4 +12,4 @@ Hence, three experts were asked to provide one of the following answers for the 
 
 The experts could also add additional information in free text. The results were analyzed by GO-CAM template and globally, that is, all together.
 
-[Spreadsheet with the evaluation from the experts] (https://github.com/jesualdotomasfernandezbreis/greekc/blob/main/evaluation/evaluation-spreadsheet.xlsx)
+[Spreadsheet with the evaluation from the experts](https://github.com/jesualdotomasfernandezbreis/greekc/blob/main/evaluation/evaluation-spreadsheet.xlsx)
