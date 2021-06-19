@@ -5,7 +5,7 @@
 
 ## GO-CAM
 
-* [Model 1](http://noctua.berkeleybop.org/editor/graph/gomodel:600ced8500000938?model_id=gomodel:600ced8500000938&barista_token=jvv5n3njwt5sysmf1skr)
+* [Model 1](http://noctua.berkeleybop.org/editor/graph/gomodel:600ced8500000938?model_id=gomodel:600ced8500000938)
 
 ## Protégé model
 
