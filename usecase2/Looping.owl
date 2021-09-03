@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.greekc.org/models">
-    <Prefix name="" IRI="http://www.greekc.org/models/"/>
+    <Prefix name="" IRI="http://www.greekc.org/models"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -14,99 +14,96 @@
     <Prefix name="GRAO" IRI="http://www.greekc.org/GRAO#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_16991"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_33695"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0000785"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0000978"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0001228"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0003674"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0045944"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002333"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0140585"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/SO_0000704"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/SO_0000713"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+        <NamedIndividual IRI="/information_biomacromolecule"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002333"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/DNA_motif"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/chromatin"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/coTF"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/dbTF"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/gene"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0045944"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/positive_regulation_of_transcription_by_RNA_polymerase_II"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="/chromatin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="/promoter-enhancer_loop_anchoring_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000785"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/gene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000713"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001228"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/SO_0000704"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/transcription_coactivator_activity"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/DNA-binding_transcription_activator_activity,_RNA_polymerase_II-specific"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="#definition"/>
     </Declaration>
-    <EquivalentClasses>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000978"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0003674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/DNA_motif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/DNA-binding_transcription_activator_activity,_RNA_polymerase_II-specific"/>
+    </Declaration>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/CHEBI_16991"/>
         <Class IRI="http://www.bootstrep.eu/ontology/GRAO#DNA_sequence"/>
-    </EquivalentClasses>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0000785"/>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
@@ -166,16 +163,12 @@
         <NamedIndividual IRI="/chromatin"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_33695"/>
-        <NamedIndividual IRI="/coTF"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_33695"/>
-        <NamedIndividual IRI="/dbTF"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000704"/>
         <NamedIndividual IRI="/gene"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+        <NamedIndividual IRI="/information_biomacromolecule"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0045944"/>
@@ -206,7 +199,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002333"/>
         <NamedIndividual IRI="/RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding"/>
-        <NamedIndividual IRI="/dbTF"/>
+        <NamedIndividual IRI="/information_biomacromolecule"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002233"/>
@@ -226,7 +219,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002333"/>
         <NamedIndividual IRI="/promoter-enhancer_loop_anchoring_activity"/>
-        <NamedIndividual IRI="/dbTF"/>
+        <NamedIndividual IRI="/information_biomacromolecule"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -241,7 +234,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002333"/>
         <NamedIndividual IRI="/transcription_coactivator_activity"/>
-        <NamedIndividual IRI="/coTF"/>
+        <NamedIndividual IRI="/information_biomacromolecule"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -266,7 +259,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002333"/>
         <NamedIndividual IRI="/DNA-binding_transcription_activator_activity,_RNA_polymerase_II-specific"/>
-        <NamedIndividual IRI="/dbTF"/>
+        <NamedIndividual IRI="/information_biomacromolecule"/>
     </ObjectPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -275,251 +268,251 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000050</IRI>
-        <Literal>Relation Ontology (RO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relation Ontology (RO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000050</IRI>
-        <Literal>part of</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">part of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000051</IRI>
-        <Literal>Relation Ontology (RO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relation Ontology (RO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000051</IRI>
-        <Literal>has part</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000066</IRI>
-        <Literal>Relation Ontology (RO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relation Ontology (RO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/BFO_0000066</IRI>
-        <Literal>occurs in</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">occurs in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_16991</IRI>
-        <Literal>High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_16991</IRI>
-        <Literal>Chemical Entities of Biological Interest (ChEBI)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chemical Entities of Biological Interest (ChEBI)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_16991</IRI>
-        <Literal>deoxyribonucleic acid (DNA)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deoxyribonucleic acid (DNA)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_33695</IRI>
-        <Literal>Chemical Entities of Biological Interest (ChEBI)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chemical Entities of Biological Interest (ChEBI)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_33695</IRI>
-        <Literal>information biomacromolecule</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">information biomacromolecule</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0000785</IRI>
-        <Literal>The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0000785</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0000785</IRI>
-        <Literal>chromatin</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">chromatin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0000978</IRI>
-        <Literal>Interacting selectively and non-covalently with a specific upstream regulatory DNA sequence (transcription factor recognition sequence or binding site) located in cis relative to the transcription start site (i.e., on the same strand of DNA) of a gene transcribed by RNA polymerase II.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Interacting selectively and non-covalently with a specific upstream regulatory DNA sequence (transcription factor recognition sequence or binding site) located in cis relative to the transcription start site (i.e., on the same strand of DNA) of a gene transcribed by RNA polymerase II.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0000978</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0000978</IRI>
-        <Literal>RNA polymerase II cis-regulatory region sequence-specific DNA binding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RNA polymerase II cis-regulatory region sequence-specific DNA binding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0001228</IRI>
-        <Literal>A DNA-binding transcription factor activity that activates or increases transcription of specific gene sets transcribed by RNA polymerase II.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A DNA-binding transcription factor activity that activates or increases transcription of specific gene sets transcribed by RNA polymerase II.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0001228</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0001228</IRI>
-        <Literal>DNA-binding transcription activator activity, RNA polymerase II-specific</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DNA-binding transcription activator activity, RNA polymerase II-specific</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0003674</IRI>
-        <Literal>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0003674</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0003674</IRI>
-        <Literal>molecular function</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">molecular function</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0005575</IRI>
-        <Literal>A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0005575</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0005575</IRI>
-        <Literal>cellular component</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cellular component</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0008150</IRI>
-        <Literal>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0008150</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0008150</IRI>
-        <Literal>biological process</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">biological process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0045944</IRI>
-        <Literal>Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Any process that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0045944</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0045944</IRI>
-        <Literal>positive regulation of transcription by RNA polymerase II</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">positive regulation of transcription by RNA polymerase II</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0140585</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GO_0140585</IRI>
-        <Literal>promoter-enhancer loop anchoring activity</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">promoter-enhancer loop anchoring activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/RO_0002233</IRI>
-        <Literal>Relation Ontology (RO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relation Ontology (RO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/RO_0002233</IRI>
-        <Literal>has input</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has input</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/RO_0002333</IRI>
-        <Literal>Relation Ontology (RO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relation Ontology (RO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/RO_0002333</IRI>
-        <Literal>enabled by</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enabled by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000704</IRI>
-        <Literal>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000704</IRI>
-        <Literal>Sequence Ontology (SO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sequence Ontology (SO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000704</IRI>
-        <Literal>gene</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gene</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000713</IRI>
-        <Literal>A motif that is active in the DNA form of the sequence.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A motif that is active in the DNA form of the sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000713</IRI>
-        <Literal>Sequence Ontology (SO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sequence Ontology (SO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/SO_0000713</IRI>
-        <Literal>DNA motif</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DNA motif</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713</IRI>
-        <Literal>A transcription coregulator activity that activates or increases the transcription of specific gene sets via binding to a DNA-bound DNA-binding transcription factor, either on its own or as part of a complex. Coactivators often act by altering chromatin structure and modifications. For example, one class of transcription coactivators modifies chromatin structure through covalent modification of histones. A second class remodels the conformation of chromatin in an ATP-dependent fashion. A third class modulates interactions of DNA-bound DNA-binding transcription factors with other transcription coregulators. A fourth class of coactivator activity is the bridging of a DNA-binding transcription factor to the general (basal) transcription machinery. The Mediator complex, which bridges sequence-specific DNA binding transcription factors and RNA polymerase, is also a transcription coactivator.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A transcription coregulator activity that activates or increases the transcription of specific gene sets via binding to a DNA-bound DNA-binding transcription factor, either on its own or as part of a complex. Coactivators often act by altering chromatin structure and modifications. For example, one class of transcription coactivators modifies chromatin structure through covalent modification of histones. A second class remodels the conformation of chromatin in an ATP-dependent fashion. A third class modulates interactions of DNA-bound DNA-binding transcription factors with other transcription coregulators. A fourth class of coactivator activity is the bridging of a DNA-binding transcription factor to the general (basal) transcription machinery. The Mediator complex, which bridges sequence-specific DNA binding transcription factors and RNA polymerase, is also a transcription coactivator.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713</IRI>
-        <Literal>Gene Ontology (GO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Ontology (GO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/GO_0003713</IRI>
-        <Literal>transcription coactivator activity</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">transcription coactivator activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>http://www.bootstrep.eu/ontology/GRAO#DNA_sequence</IRI>
-        <Literal>Gene Regulation Application Ontology (GRAO)</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene Regulation Application Ontology (GRAO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.bootstrep.eu/ontology/GRAO#DNA_sequence</IRI>
-        <Literal>DNA sequence</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DNA sequence</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
