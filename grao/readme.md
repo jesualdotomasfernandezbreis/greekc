@@ -5,7 +5,7 @@ GRAO is a GREEKC Consortium development which describes knowledge relevant to th
 
 [Download the OWL file](https://github.com/jesualdotomasfernandezbreis/greekc/edit/main/grao/grao.owl)
 
-![alt text](https://github.com/jesualdotomasfernandezbreis/greekc/edit/main/grao/grao.png "The Gene Regulation High Level Simplified Schema")
+![The Gene Regulation High Level Simplified Schema](https://github.com/jesualdotomasfernandezbreis/greekc/edit/main/grao/grao.png "The Gene Regulation High Level Simplified Schema")
 
 
 
