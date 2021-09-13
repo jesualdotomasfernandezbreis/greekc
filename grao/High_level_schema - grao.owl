@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY sio "http://semanticscience.org/resource/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY grao "http://www.bootstrep.eu/ontology/GRAO#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.bootstrep.eu/ontology/GRAO#"
+     xml:base="http://www.bootstrep.eu/ontology/GRAO"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:grao="http://www.bootstrep.eu/ontology/GRAO#"
+     xmlns:sio="http://semanticscience.org/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.bootstrep.eu/ontology/GRAO#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.bootstrep.eu/ontology/GRAO#importedAxiom -->
+
+    <owl:AnnotationProperty rdf:about="&grao;importedAxiom"/>
+    
+
+
+    <!-- http://www.bootstrep.eu/ontology/GRAO#nameInOrigin -->
+
+    <owl:AnnotationProperty rdf:about="&grao;nameInOrigin"/>
+    
+
+
+    <!-- http://www.bootstrep.eu/ontology/GRAO#synonym -->
+
+    <owl:AnnotationProperty rdf:about="&grao;synonym"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000050">
+        <rdfs:label>part of</rdfs:label>
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <skos:definition xml:lang="201209091213 is part of my heart">a core relation that holds between a part and its whole</skos:definition>
+        <owl:inverseOf rdf:resource="&obo;BFO_0000051"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000051">
+        <rdfs:label>has part</rdfs:label>
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+        <skos:definition xml:lang="201209091213 is part of my heart">a core relation that holds between a whole and its part</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000057">
+        <rdfs:label>has participant</rdfs:label>
+        <skos:definition>a relation between a process and a continuant, in which the continuant is somehow involved in the process</skos:definition>
+        <rdfs:isDefinedBy>Relation Ontoogy (RO)</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0001000">
+        <rdfs:label>derives from</rdfs:label>
+        <skos:definition>a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</skos:definition>
+        <rdfs:isDefinedBy>Relation Ontoogy (RO)</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002234 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002234">
+        <rdfs:label>has output</rdfs:label>
+        <skos:definition>p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.</skos:definition>
+        <rdfs:isDefinedBy>Relation Ontology (RO)</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/regulates -->
+
+    <owl:ObjectProperty rdf:about="&obo;regulates">
+        <rdfs:label>regulates</rdfs:label>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000015">
+        <rdfs:label>Process</rdfs:label>
+        <rdfs:isDefinedBy>Basic Formal Ontology (BFO)</rdfs:isDefinedBy>
+        <skos:definition>p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000040">
+        <rdfs:label>Material entity</rdfs:label>
+        <rdfs:isDefinedBy>Basic Formal Ontology (BFO)</rdfs:isDefinedBy>
+        <skos:definition>BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.
+
+BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60
+
+BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15841 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_15841">
+        <rdfs:label>Polypeptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <importedAxiom>is a peptide</importedAxiom>
+        <rdfs:isDefinedBy>Chemical Entities of Biological Interest Ontology (CHEBI)</rdfs:isDefinedBy>
+        <importedAxiom>is a macromolecule </importedAxiom>
+        <skos:definition>A peptide containing ten or more amino acid residues.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16991">
+        <rdfs:label>DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&grao;DNA_sequence"/>
+        <skos:definition>High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</skos:definition>
+        <rdfs:isDefinedBy>Chemical Entities of Biological Interest Ontology (CHEBI)</rdfs:isDefinedBy>
+        <importedAxiom> is a nucleic acid</importedAxiom>
+        <nameInOrigin>deoxyribonucleic acid</nameInOrigin>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33697">
+        <rdfs:label>RNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <nameInOrigin>ribonucleic acid</nameInOrigin>
+        <rdfs:isDefinedBy>Chemical Entities of Biological Interest Ontology (CHEBI)</rdfs:isDefinedBy>
+        <importedAxiom>is a nucleic acid</importedAxiom>
+        <importedAxiom>has part canonical ribonucleoside residue</importedAxiom>
+        <skos:definition>High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000785 -->
+
+    <owl:Class rdf:about="&obo;GO_0000785">
+        <rdfs:label>Chromatin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16991"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_15841"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <importedAxiom>is a chromosomal part</importedAxiom>
+        <skos:definition>The ordered and organized complex of DNA, protein, and sometimes RNA, that forms the chromosome.</skos:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003700 -->
+
+    <owl:Class rdf:about="&obo;GO_0003700">
+        <rdfs:label>Transcription factor binding activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0140110"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0006355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <importedAxiom>part of some regulation of transcription, DNA-templated</importedAxiom>
+        <nameInOrigin>DNA binding transcription factor activity</nameInOrigin>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <skos:definition>Interacting selectively and non-covalently with a specific DNA sequence (sometimes referred to as a motif) within the regulatory region of a gene in order to modulate transcription.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006351 -->
+
+    <owl:Class rdf:about="&obo;GO_0006351">
+        <rdfs:label>Transcription</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16991"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="&obo;SO_0000673"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <importedAxiom>is a nucleic acid-templated transcription</importedAxiom>
+        <importedAxiom>part of some gene expression</importedAxiom>
+        <importedAxiom>is a cellular macromolecule biosynthetic process</importedAxiom>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <importedAxiom>part_of gene expression</importedAxiom>
+        <nameInOrigin>transcription, DNA-templated</nameInOrigin>
+        <skos:definition>The cellular synthesis of RNA on a template of DNA.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006355 -->
+
+    <owl:Class rdf:about="&obo;GO_0006355">
+        <rdfs:label>Regulation of transcription</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0010468"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;regulates"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0006351"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <nameInOrigin>regulation of transcription, DNA-templated</nameInOrigin>
+        <importedAxiom>regulates transcription, DNA-templated</importedAxiom>
+        <skos:definition>Any process that modulates the frequency, rate or extent of cellular DNA-templated transcription.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008380 -->
+
+    <owl:Class rdf:about="&obo;GO_0008380">
+        <rdfs:label>RNA Splicing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="&obo;SO_0000234"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;SO_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>The process of removing sections of the primary RNA transcript to remove sequences not present in the mature form of the RNA and joining the remaining sections to form the mature form of the RNA.</skos:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <importedAxiom>part_of gene expression</importedAxiom>
+        <importedAxiom>is a RNA processing</importedAxiom>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010468 -->
+
+    <owl:Class rdf:about="&obo;GO_0010468">
+        <rdfs:label>Regulation of gene expression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <importedAxiom>is a regulation of macromolecule metabolic process</importedAxiom>
+        <importedAxiom>regulates some gene expression</importedAxiom>
+        <skos:definition>Any process that modulates the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&apos;s coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010608 -->
+
+    <owl:Class rdf:about="&obo;GO_0010608">
+        <rdfs:label>Posttranscriptional regulation of gene expression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0010468"/>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <skos:definition>Any process that modulates the frequency, rate or extent of gene expression after the production of an RNA transcript.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016569 -->
+
+    <owl:Class rdf:about="&obo;GO_0016569">
+        <rdfs:label>Chromatin modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0000785"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+        <nameInOrigin>The alteration of DNA or protein in chromatin by the covalent addition or removal of chemical groups.</nameInOrigin>
+        <nameInOrigin>covalent chromatin modification</nameInOrigin>
+        <importedAxiom>is a chromatin organization</importedAxiom>
+        <importedAxiom>macromolecule modification</importedAxiom>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043484 -->
+
+    <owl:Class rdf:about="&obo;GO_0043484">
+        <rdfs:label>Regulation of RNA splicing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0010468"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;regulates"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0008380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>Any process that modulates the frequency, rate or extent of RNA splicing, the process of removing sections of the primary RNA transcript to remove sequences not present in the mature form of the RNA and joining the remaining sections to form the mature form of the RNA.</skos:definition>
+        <importedAxiom>is a regulation of RNA metabolic process</importedAxiom>
+        <importedAxiom>regulates RNA splicing</importedAxiom>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0140110 -->
+
+    <owl:Class rdf:about="&obo;GO_0140110">
+        <rdfs:label>Transcription regulator activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <skos:definition>A molecular function that controls the rate, timing and/or magnitude of transcription of genetic information. The function of transcriptional regulators is to modulate gene expression at the transcription step so that they are expressed in the right cell at the right time and in the right amount throughout the life of the cell and the organism.</skos:definition>
+        <rdfs:isDefinedBy>Gene Ontology (GO)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000185 -->
+
+    <owl:Class rdf:about="&obo;SO_0000185">
+        <rdfs:label>pre mRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000673"/>
+        <skos:definition>A transcript that in its initial state requires modification to be functional.</skos:definition>
+        <rdfs:isDefinedBy>Sequence Types and Features Ontology (SO)</rdfs:isDefinedBy>
+        <synonym>precursor RNA</synonym>
+        <nameInOrigin>primary transcript</nameInOrigin>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000234 -->
+
+    <owl:Class rdf:about="&obo;SO_0000234">
+        <rdfs:label>mature mRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000673"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;SO_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <nameInOrigin>mRMA</nameInOrigin>
+        <synonym>messenger RNA</synonym>
+        <importedAxiom>is a mature_transcript</importedAxiom>
+        <skos:definition>Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns. An mRNA does not contain introns as it is a processed_transcript.</skos:definition>
+        <rdfs:isDefinedBy>Sequence Types and Features Ontology (SO)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000235 -->
+
+    <owl:Class rdf:about="&obo;SO_0000235">
+        <rdfs:label>Transcription factor binding site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&grao;DNA_sequence"/>
+        <importedAxiom>is a transcription regulatory region</importedAxiom>
+        <rdfs:isDefinedBy>Sequence Ontology (SO)</rdfs:isDefinedBy>
+        <skos:definition>A region of a nucleotide molecule that binds a Transcription Factor or Transcription Factor complex</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000655 -->
+
+    <owl:Class rdf:about="&obo;SO_0000655">
+        <rdfs:label>ncRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;SO_0000673"/>
+        <importedAxiom>is a mature_transcript</importedAxiom>
+        <skos:definition>An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product.</skos:definition>
+        <synonym>noncoding RNA</synonym>
+        <rdfs:isDefinedBy>Sequence Types and Features Ontology (SO)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000673 -->
+
+    <owl:Class rdf:about="&obo;SO_0000673">
+        <rdfs:label>Transcript</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33697"/>
+        <skos:definition>An RNA synthesized on a DNA or RNA template by an RNA polymerase.</skos:definition>
+        <rdfs:isDefinedBy>Sequence Types and Features Ontology (SO)</rdfs:isDefinedBy>
+        <importedAxiom>is a gene member region</importedAxiom>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001679 -->
+
+    <owl:Class rdf:about="&obo;SO_0001679">
+        <rdfs:label>Transcription regulatory region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&grao;DNA_sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;SO_0000235"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A regulatory region that is involved in the control of the process of transcription</skos:definition>
+        <importedAxiom>is a regulatory region</importedAxiom>
+        <rdfs:isDefinedBy>Sequence Ontology (SO)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bootstrep.eu/ontology/GRAO#DNA_sequence -->
+
+    <owl:Class rdf:about="&grao;DNA_sequence">
+        <rdfs:label>DNA Sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
