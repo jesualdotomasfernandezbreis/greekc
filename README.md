@@ -8,7 +8,7 @@ Gene regulation computational research requires handling and integrating large a
 
 ## GRAO
 
-Besides the reuse of Gene Ontology, the Sequence Ontology, the Relations Ontology and ChEBI, we also use the [Gene Regulation Application Ontology (GRAO)](https://github.com/jesualdotomasfernandezbreis/greekc/tree/main/grao/readme.md), which provides a gene regulation high level schema. 
+Besides the reuse of Gene Ontology, the Sequence Ontology, the Relations Ontology and ChEBI, we also use the [Gene Regulation Application Ontology (GRAO)](https://github.com/GREEKC/GRAO/readme.md), which provides a gene regulation high level schema. 
 
 ## Use cases
 
